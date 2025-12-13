@@ -122,111 +122,184 @@ export default function HomePage() {
         </Slider>
       </section>
 
-<section className="w-full py-16 md:py-24 bg-gray-50 main-container">
-  <div className="mx-auto px-4 sm:px-6 lg:px-8">
-    {/* Title with decorative element */}
-    <div className="text-center mb-16">
-      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 relative inline-block">
-        About Us
-        <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-green-600 rounded-full"></span>
-      </h2>
-      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-        Delivering excellence in industrial solutions across India
-      </p>
-    </div>
+      {/* about section */}
+      <section className="w-full py-20 bg-gray-50 main-container fade-in">
+        <div className="mx-auto px-4 sm:px-6 lg:px-20">
 
-    {/* Content Grid */}
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-      {/* Text Content */}
-      <div className="space-y-6">
-
-        <p className="text-lg text-gray-700 leading-relaxed">
-          <span className="font-bold text-green-600">TOPFRONT</span>, a proud
-          vertical of the prestigious{" "}
-          <span className="font-semibold text-gray-900">UTKAL GROUP</span> with a net worth of{" "}
-          <span className="font-semibold text-gray-900">₹12 billion</span>, is a trusted leader
-          in delivering world-class industrial solutions across India. Under
-          the visionary leadership of our Managing Director,{" "}
-          <span className="font-semibold text-gray-900">Mr. Suresh Mishra</span>, we
-          combine technology, safety, and operational excellence to provide
-          reliable, efficient, and sustainable results.
-        </p>
-
-
-
-        <p className="text-lg text-gray-700 leading-relaxed">
-          With a strong national presence, we specialize in{" "}
-          <span className="font-semibold text-gray-900">
-            Operations & Maintenance (O&M)
-          </span>{" "}
-          for steel plants, power plants, cement plants, refineries,
-          aluminum plants, refractory units, and more.
-        </p>
-
-        <p className="text-lg text-gray-700 leading-relaxed">
-          Beyond O&M, our expertise extends to{" "}
-          <span className="font-semibold text-gray-900">
-            Fabrication & Erection, Plant & Equipment Commissioning,
-            Refurbishment of Old Plants, Shutdown Maintenance, and Technical
-            Audits
-          </span>.
-        </p>
-
-        <p className="text-lg text-gray-700 leading-relaxed">
-          We also excel in{" "}
-          <span className="font-semibold text-gray-900">Manpower Management</span>,
-          offering recruitment, staffing, HR outsourcing (payroll &
-          compliance), talent development, performance management, and
-          employee engagement. Our success is built on hard work, innovation
-          and long-term partnerships — ensuring measurable outcomes while
-          maintaining the highest standards of safety and quality.
-        </p>
-        
-        {/* Stats section */}
-        <div className="grid grid-cols-2 gap-6 pt-6">
-          <div className="text-center">
-            <p className="text-3xl font-bold text-green-600">12+</p>
-            <p className="text-gray-600">Years of Experience</p>
+          {/* PAGE TITLE */}
+          <div className="text-center mb-20 fade-up">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 relative inline-block">
+              About Us
+              <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-green-600 rounded-full"></span>
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Delivering excellence in industrial solutions across India
+            </p>
           </div>
-          <div className="text-center">
-            <p className="text-3xl font-bold text-green-600">500+</p>
-            <p className="text-gray-600">Projects Completed</p>
+
+          {/* DIRECTOR DESK SECTION */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+
+            {/* IMAGE LEFT */}
+            <div className="relative flex justify-center lg:justify-start zoom-in">
+              <div className="w-80 h-80 relative rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src={cmd.src}
+                  alt="Managing Director"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              {/* Decorative border */}
+              <div className="absolute -z-10 -bottom-5 -right-5 w-80 h-80 border-2 border-green-600 rounded-xl"></div>
+            </div>
+
+            {/* TEXT RIGHT */}
+            <div className="space-y-6 fade-up delay-1">
+              <h3 className="text-3xl font-bold text-gray-900">Director’s Desk</h3>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                I am proud to introduce <span className="font-bold text-green-600">TOPFRONT</span>, 
+                one of the fastest-growing verticals of the 
+                <span className="font-semibold text-gray-900"> UTKAL GROUP</span>. 
+                Guided by innovation, discipline, and excellence, we continue to transform India’s 
+                industrial sector with world-class solutions.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Our operations span across critical industries — steel, power, cement, aluminum, 
+                and refineries — where we have built a reputation for reliability, precision, 
+                and unmatched work ethics.
+              </p>
+              
+              <p className="font-semibold text-gray-900">
+                — Mr. Suresh Mishra, Managing Director
+              </p>
+            </div>
           </div>
+
+          {/* MAIN ABOUT SECTION BELOW DIRECTOR DESK */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
+
+            {/* LEFT TEXT BLOCK */}
+            <div className="space-y-6 fade-up">
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                <span className="font-bold text-green-600">TOPFRONT</span>, a proud vertical of the 
+                <span className="font-semibold text-gray-900"> UTKAL GROUP</span> with a net worth of 
+                <span className="font-semibold text-gray-900"> ₹12 billion</span>, 
+                is one of India’s most trusted industrial service providers.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                We specialize in{" "}
+                <span className="font-semibold text-gray-900">Operations & Maintenance (O&M)</span>{" "}
+                for steel plants, cement plants, power units, refineries, aluminum industries,
+                and large manufacturing ecosystems.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Our expertise also includes{" "}
+                <span className="font-semibold text-gray-900">
+                  Fabrication & Erection, Plant & Equipment Commissioning, Refurbishment, 
+                  Shutdown Maintenance, and Technical Audits
+                </span>.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Through strong manpower management, top-tier staffing, HR outsourcing, payroll, 
+                compliance, and talent development, we ensure smooth and effective operations for 
+                industries of all sizes.
+              </p>
+
+              {/* Stats */}
+              {/* <div className="grid grid-cols-2 gap-8 pt-6">
+                <div className="text-center bg-white p-6 rounded-xl shadow fade-up delay-1">
+                  <p className="text-4xl font-bold text-green-600">12+</p>
+                  <p className="text-gray-600">Years Experience</p>
+                </div>
+                <div className="text-center bg-white p-6 rounded-xl shadow fade-up delay-2">
+                  <p className="text-4xl font-bold text-green-600">500+</p>
+                  <p className="text-gray-600">Projects Completed</p>
+                </div>
+              </div> */}
+            </div>
+
+            {/* RIGHT PROFILE CARD */}
+            <div className="bg-white p-8 rounded-xl shadow-lg max-w-lg mx-auto lg:mx-0 fade-up delay-1">
+              <h3 className="text-3xl font-bold text-gray-900 text-center">Our Leadership</h3>
+
+              <p className="mt-4 text-gray-700 text-center leading-relaxed">
+                Under the strategic guidance of <strong>Mr. Suresh Mishra</strong>, TOPFRONT has emerged 
+                as a powerhouse of workforce excellence, operational efficiency, and customer 
+                satisfaction across India.
+              </p>
+
+              <p className="mt-4 text-gray-600 italic text-center">
+                “Our mission is to deliver measurable value while prioritizing safety, innovation, 
+                and long-term partnerships.”
+              </p>
+
+              {/* Leadership Stats */}
+              <div className="grid grid-cols-2 gap-6 mt-8 pt-6 border-t">
+                <div className="text-center">
+                  <p className="text-4xl font-bold text-green-600">12+</p>
+                  <p className="text-gray-600 text-sm">Years Experience</p>
+                </div>
+                <div className="text-center">
+                  <p className="text-4xl font-bold text-green-600">500+</p>
+                  <p className="text-gray-600 text-sm">Projects Completed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
 
-      {/* Director Profile */}
-      <div className="flex flex-col items-center lg:items-end">
-        <div className="relative">
-          <div className="w-72 h-72 relative rounded-lg overflow-hidden">
-            <Image
-              src={cmd.src} // Replace with actual image path
-              alt="Managing Director Mr. Suresh Mishra"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-          {/* Decorative elements */}
-          <div className="absolute -z-10 -bottom-4 -right-4 w-full h-full border-2 border-green-600 rounded-lg"></div>
-          <div className="absolute top-4 -left-4 bg-green-100 text-green-800 py-1 px-3 rounded-full text-sm font-medium shadow-sm">
-            Leadership
-          </div>
-        </div>
-        
-        <div className="text-center mt-8 bg-white p-6 rounded-lg shadow-sm w-full max-w-md">
-          <h3 className="text-2xl font-bold text-gray-900">
-            Mr. Suresh Mishra
-          </h3>
-          <p className="text-blue-600 font-medium mb-4">Managing Director</p>
-          <p className="text-gray-600 italic">
-            Our commitment to excellence drives everything we do, ensuring our clients receive the highest quality service and solutions.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+        {/* Custom Animation Styles */}
+        <style>
+          {`
+            .fade-in {
+              animation: fadeIn 1.2s ease-out forwards;
+              opacity: 0;
+            }
+
+            .fade-up {
+              opacity: 0;
+              transform: translateY(20px);
+              animation: fadeUp 1s ease-out forwards;
+            }
+
+            .zoom-in {
+              opacity: 0;
+              transform: scale(0.95);
+              animation: zoomIn 1.1s ease-out forwards;
+            }
+
+            .delay-1 { animation-delay: 0.3s; }
+            .delay-2 { animation-delay: 0.6s; }
+
+            @keyframes fadeIn {
+              to { opacity: 1; }
+            }
+
+            @keyframes fadeUp {
+              to {
+                opacity: 1;
+                transform: translateY(0px);
+              }
+            }
+
+            @keyframes zoomIn {
+              to {
+                opacity: 1;
+                transform: scale(1);
+              }
+            }
+          `}
+        </style>
+      </section>
 
             {/* Vision, Mission & Core Values Section */}
       <section className="w-full py-16 main-container">
@@ -265,162 +338,132 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services Section */}
-<section className="w-full py-16 bg-gradient-to-b from-white to-gray-50">
-  <div className="main-container">
-    <div className="text-center mb-12">
-      <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
-      <div className="w-24 h-1 bg-green-500 mx-auto"></div>
-      <p className="text-gray-600 mt-6 max-w-2xl mx-auto">
-        We provide comprehensive solutions tailored to meet your specific requirements with excellence and precision.
-      </p>
-    </div>
-    
-    {/* Card Style Services Slider */}
-    <div className="relative">
-      <Slider
-        dots={true}
-        infinite={true}
-        speed={500}
-        slidesToShow={3}
-        slidesToScroll={1}
-        autoplay={true}
-        autoplaySpeed={4000}
-        arrows={true}
-        responsive={[
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-            }
-          },
-          {
-            breakpoint: 640,
-            settings: {
-              slidesToShow: 1,
-            }
-          }
-        ]}
-        className="services-card-slider"
-      >
-        {serviceArr.map((service, index) => (
-          <div key={service.id} className="px-3 outline-none h-full">
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden h-full flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-              {/* Image Container - Fixed Height */}
-              <div className="overflow-hidden h-48">
-                <img
-                  src={service.img.src}
-                  alt={service.title}
-                  className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
-                />
-              </div>
+     {/* Services Section – Equal Height Cards */}
+      <section className="w-full py-24 bg-[#0f172a] relative overflow-hidden">
+        
+        {/* Decorative background */}
+        <div className="absolute -top-32 -left-32 w-96 h-96 bg-green-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-[30rem] h-[30rem] bg-green-400/10 rounded-full blur-3xl"></div>
 
-              {/* Content Container - Flexible but consistent */}
-              <div className="p-6 flex flex-col flex-grow">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
-                    <span className="text-lg font-bold text-green-600">{index + 1}</span>
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-800">
-                    {service.title}
-                  </h3>
-                </div>
+        <div className="main-container relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-16 items-start">
 
-                {/* Bullet Points (limited to 3) */}
-                <ul className="text-gray-700 space-y-2 mb-6 flex-grow">
-                  {service.description.slice(0, 3).map((point, idx) => (
-                    <li key={idx} className="flex items-start">
-                      <svg className="w-4 h-4 text-green-500 mt-1 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-sm">{point}</span>
-                    </li>
-                  ))}
-                </ul>
+          {/* LEFT CONTENT */}
+          <div className="lg:col-span-1 sticky top-32">
+            <h2 className="text-4xl font-bold text-white leading-tight">
+              Our <span className="text-green-400">Services</span>
+            </h2>
+            <div className="w-20 h-1 bg-green-500 mt-4"></div>
+            <p className="text-gray-300 mt-6 leading-relaxed">
+              End-to-end industrial solutions focused on safety, precision, and
+              long-term value creation.
+            </p>
 
-                {/* Button - Fixed at bottom */}
-                <button
-                  className="text-center text-green-600 font-semibold py-2 border border-green-600 rounded-full transition-all duration-300 hover:bg-green-600 hover:text-white mt-auto"
-                  onClick={() => router.push('/services')}
-                >
-                  Know More
-                </button>
-              </div>
-            </div>
+            <button
+              onClick={() => router.push("/services")}
+              className="mt-10 px-7 py-3 rounded-full bg-green-600 text-white font-semibold hover:bg-green-700 transition"
+            >
+              View All Services →
+            </button>
           </div>
-        ))}
-      </Slider>
-    </div>
-    
-    {/* View All Button */}
-    <div className="text-center mt-16">
-      <button 
-        className="px-8 py-3 bg-green-600 text-white font-semibold rounded-full transition-all duration-300 hover:bg-green-700 hover:shadow-lg"
-        onClick={() => router.push('/services')}
-      >
-        View All Services
-      </button>
-    </div>
 
-    {/* Custom Slider Styles */}
-    <style jsx global>{`
-      .services-card-slider .slick-list {
-        margin: 0 -12px;
-      }
-      .services-card-slider .slick-slide > div {
-        height: 100%;
-      }
-      .services-card-slider .slick-dots {
-        bottom: -40px;
-      }
-      .services-card-slider .slick-dots li button:before {
-        font-size: 12px;
-        color: #cbd5e0;
-      }
-      .services-card-slider .slick-dots li.slick-active button:before {
-        color: #10b981;
-      }
-      .services-card-slider .slick-prev,
-      .services-card-slider .slick-next {
-        width: 40px;
-        height: 40px;
-        z-index: 10;
-        background: rgba(255, 255, 255, 0.9);
-        border-radius: 50%;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease;
-      }
-      .services-card-slider .slick-prev:hover,
-      .services-card-slider .slick-next:hover {
-        background: #10b981;
-      }
-      .services-card-slider .slick-prev {
-        left: -20px;
-      }
-      .services-card-slider .slick-next {
-        right: -20px;
-      }
-      .services-card-slider .slick-prev:before,
-      .services-card-slider .slick-next:before {
-        color: #4b5563;
-        font-size: 18px;
-      }
-      .services-card-slider .slick-prev:hover:before,
-      .services-card-slider .slick-next:hover:before {
-        color: white;
-      }
-      
-      @media (max-width: 640px) {
-        .services-card-slider .slick-prev {
-          left: -10px;
-        }
-        .services-card-slider .slick-next {
-          right: -10px;
-        }
-      }
-    `}</style>
-  </div>
-</section>
+          {/* RIGHT SLIDER */}
+          <div className="lg:col-span-2">
+            <Slider
+              dots={false}
+              infinite
+              speed={600}
+              slidesToShow={2}
+              slidesToScroll={1}
+              autoplay
+              autoplaySpeed={4500}
+              arrows
+              responsive={[
+                { breakpoint: 1024, settings: { slidesToShow: 1 } }
+              ]}
+              className="services-modern-slider"
+            >
+              {serviceArr.map((service, index) => (
+                <div key={service.id} className="px-4 h-full">
+                  {/* CARD */}
+                  <div className="group relative h-[420px] flex flex-col rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/10 hover:border-green-400/40 transition-all duration-300">
+
+                    {/* Number */}
+                    <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-green-500 text-white flex items-center justify-center font-bold z-20">
+                      {index + 1}
+                    </div>
+
+                    {/* Image */}
+                    <div className="relative h-52 shrink-0 overflow-hidden">
+                      <img
+                        src={service.img.src}
+                        alt={service.title}
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                    </div>
+
+                    {/* Content */}
+                    <div className="p-6 flex flex-col flex-grow">
+                      <h3 className="text-xl font-bold text-white mb-4">
+                        {service.title}
+                      </h3>
+
+                      <ul className="space-y-2 text-gray-300 text-sm flex-grow">
+                        {service.description.slice(0, 3).map((point, idx) => (
+                          <li key={idx} className="flex items-start gap-2">
+                            <span className="w-1.5 h-1.5 mt-2 rounded-full bg-green-400"></span>
+                            {point}
+                          </li>
+                        ))}
+                      </ul>
+
+                      {/* Button pinned bottom */}
+                      <button
+                        onClick={() => router.push("/services")}
+                        className="mt-auto pt-4 text-green-400 font-semibold inline-flex items-center gap-2 hover:text-green-300 transition"
+                      >
+                        Know More →
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </Slider>
+          </div>
+        </div>
+
+        {/* Slider fixes */}
+        <style jsx global>{`
+          .services-modern-slider .slick-slide > div {
+            height: 100%;
+          }
+
+          .services-modern-slider .slick-list {
+            padding-bottom: 10px;
+          }
+
+          .services-modern-slider .slick-prev,
+          .services-modern-slider .slick-next {
+            width: 44px;
+            height: 44px;
+            border-radius: 9999px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(6px);
+            z-index: 20;
+          }
+
+          .services-modern-slider .slick-prev:before,
+          .services-modern-slider .slick-next:before {
+            color: white;
+            font-size: 18px;
+          }
+
+          .services-modern-slider .slick-prev:hover,
+          .services-modern-slider .slick-next:hover {
+            background: #10b981;
+          }
+        `}</style>
+      </section>
 
       {/* Stats Section */}
       <section className="w-full bg-gray-100 py-16">
@@ -444,7 +487,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
 
       {/* Additional Services Section */}
       <section className="w-full bg-gray-100 py-16">
@@ -532,30 +574,6 @@ export default function HomePage() {
             </Slider>
           </div>
         </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="w-full bg-green-600 py-16">
-        <div className="main-container text-center text-white">
-          <h2 className="text-3xl font-bold mb-6">Ready to Start Your Project?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Contact us today to discuss how we can help bring your vision to life.
-          </p>
-          <button className="bg-white text-green-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300">
-            Get In Touch
-          </button>
-        </div>
-      </section>
-
-      {/* Map Section */}
-      <section className='w-full h-[70vh] main-container p-6 my-12'>
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412.66028536560367!2d85.75513660966763!3d20.244715835556402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a9f84571a633%3A0x600f47c59a3bcf8!2sUtkal%20Group%20of%20Companies!5e1!3m2!1sen!2sin!4v1743144349889!5m2!1sen!2sin" 
-          className='w-full h-full rounded-lg shadow-md'  
-          allowFullScreen={true} 
-          loading="lazy" 
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
       </section>
     </div>
   );

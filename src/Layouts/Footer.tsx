@@ -20,14 +20,14 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
           {/* Logo Section */}
           <div>
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <Image
                 src={flogo.src}
                 alt="Topfront Pvt. Ltd. Logo"
                 width={120}
                 height={40}
               />
-            </div>
+            </div> */}
             <h3 className="text-lg font-semibold mb-4">Topfront Pvt.Ltd.</h3>
             <p className="text-sm leading-relaxed">
               Arya Surya Enclave, Plot No- K5/475, Khata No 95/937, Fourth
@@ -110,7 +110,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-green-600 pt-6 text-center">
           <p className="text-sm sm:text-base">
-            © 2024 Topfront Pvt.Ltd. All rights reserved.
+            © 2025 Topfront Pvt.Ltd. All rights reserved.
           </p>
         </div>
       </div>

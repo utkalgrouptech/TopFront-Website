@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { iconArr, navArr } from "@/utils/Home";
+import { navArr } from "@/utils/Home";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -52,7 +52,7 @@ export default function Header() {
               <img src={logo.src} alt="" className="h-16  cursor-pointer" />
             </Link>
           </div>
-          <div className="flex gap-3 ml-auto justify-center lg:justify-end">
+          {/* <div className="flex gap-3 ml-auto justify-center lg:justify-end">
             <span className="flex gap-4 text-black">
               {iconArr.map((item) => (
                 <Link href={item.path} target="_blank" key={item.id}>
@@ -60,7 +60,7 @@ export default function Header() {
                 </Link>
               ))}
             </span>
-          </div>
+          </div> */}
 
           <div className="lg:hidden flex items-center">
             {isMenuOpen ? (
