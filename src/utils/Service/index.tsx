@@ -136,7 +136,7 @@ export const servicesData = [
   },
   {
     id: 5,
-    title: 'Shutdown Maintenance',
+    title: 'Shutdown / Capital Maintenance',
     description:
       'We provide specialized shutdown maintenance services to ensure plant reliability and safety.',
     image: service5,
