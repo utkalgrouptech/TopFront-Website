@@ -77,7 +77,7 @@ export default function Header() {
           </div>
         </div>
         <div
-          className={`w-full h-14 bg-[#5e5c5c] main-container text-white flex items-center justify-between uppercase font-serif px-4 md:px-10 ${
+          className={`w-full h-14 bg-[#5e5c5c]  text-white flex items-center justify-between uppercase font-serif  ${
             isMenuOpen ? "block" : "hidden"
           } lg:flex`}
         >
