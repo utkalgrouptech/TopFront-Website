@@ -201,18 +201,6 @@ export const serviceArr = [
   },
 
     {
-    id: 7,
-    img: service6,
-    title: "Technical Audit",
-    description: [
-      "Performance assessment, risk identification, compliance checks.",
-      "Process improvement for IT, manufacturing, and infrastructure.",
-    
-      
-    ],
-  },
-
-    {
     id: 8,
     img: service8,
     title: "Industrial Training",
