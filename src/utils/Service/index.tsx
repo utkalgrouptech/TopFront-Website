@@ -1,4 +1,4 @@
-import { service1, service2, service3, service4, service5, service6, service7, service8 } from "@/assests/Home";
+import { service1, service2, service3, service4, service5, service6, service7, service8 ,service9} from "@/assests/Home";
 
 
 export const servicesData = [
@@ -296,6 +296,63 @@ export const servicesData = [
     'These training programmes are structured to support industries in achieving higher operational efficiency while simultaneously contributing to skill development and capacity building at a national level.',
       },
 
+     
+    },
+  },
+
+
+   {
+    id: 9,
+    title: 'Technical Ship Management',
+    description:
+      'We provide industry-focused training programmes to develop technical skills, practical knowledge, and workforce readiness.',
+    image: service9,
+    details: {
+      heading: 'Technical Ship Management',
+      mainContent: [
+        'Our Technical Ship Management division delivers comprehensive and performance-driven solutions, consistently exceeding the expectations of vessel owners and stakeholders.',
+        'Backed by a highly experienced and multidisciplinary team, we provide end-to-end offshore support, including preventive and corrective maintenance, repair management, technical inspections, quality assurance audits, expert evaluations, and execution oversight.',
+      ],
+      features: [
+     {
+        title: '01 — Planned Maintenance System (PMS)',
+        content:
+          'Implementation and monitoring of scheduled maintenance programmes to minimize downtime and maximize vessel lifecycle performance.',
+      },
+      {
+        title: '02 — Repair & Dry Dock Management',
+        content:
+          'Complete planning, supervision, vendor coordination, and cost control of repair and dry-docking activities.',
+      },
+      {
+        title: '03 — Technical Inspections & Audits',
+        content:
+          'Periodic vessel condition assessments, machinery checks, quality inspections, and compliance verification as per international maritime standards.',
+      },
+      {
+        title: '04 — Expert Advisory & Execution Support',
+        content:
+          'Deployment of technical specialists for on-site troubleshooting, evaluation, repairs, and performance optimization.',
+      },
+      {
+        title: '05 — Budgeting & Cost Control',
+        content:
+          'Structured financial planning, maintenance budgeting, and efficient cost monitoring systems for resource optimization.',
+      },
+      {
+        title: '06 — Regulatory Compliance',
+        content:
+          'Full adherence to international maritime regulations, classification society rules, and statutory obligations.',
+      },
+  
+      ],
+      whyChooseUs: [
+        'With a strong commitment to Quality, Safety, Energy Efficiency, and Environmental Protection, we ensure that every vessel remains in a constant state of operational readiness.',
+        
+      ],
+      
+ paragraph:
+      'Operating in a growth-oriented and performance-driven environment, we enable our partners to benefit from competitive management solutions, enhanced vessel reliability, and sustainable operational excellence.',
      
     },
   },
