@@ -11,23 +11,7 @@ interface JobOpening {
 
 const jobOpenings: JobOpening[] = [
   {
-    title: 'Facility Supervisor',
-    location: 'Jai Raj ispat Ltd,Kurnool,Andhrapradesh',
-    experience: '1-2 years',
-    description: 'We are currently seeking a dedicated and experienced Facility Supervisor to join our team and oversee the day-to-day operations of our facilities.',
-  },
-  {
-    title: 'House Keeping',
-    location: 'Jai Raj ispat Ltd,Kurnool,Andhrapradesh',
-    experience: '2-5 years',
-    description: 'We are currently looking for reliable and detail-oriented Housekeeping Staff to join our team and maintain the cleanliness and orderliness of our facilities.',
-  },
-  {
-    title: 'Facility Manager',
-    location: 'Jai Raj ispat Ltd,Kurnool,Andhrapradesh',
-    experience: '4-5 years',
-    description: 'We are looking for a proactive and experienced Facility Manager to oversee the daily operations, maintenance,  cleanliness, and functionality and many more.',
-  },
+    
 ]
 
 export default function Jobopening() {
