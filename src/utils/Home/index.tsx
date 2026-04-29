@@ -1,4 +1,4 @@
-import { client1, client10, client11, client12, client2, client3, client4, client5, client6, client7, client8, client9, p1, p2, p3, p4, p5, service1, service2, service3, service4, service5, service6, service7, slider1, slider2, slider3 } from "@/assests/Home";
+import { client1, client10, client11, client12, client2, client3, client4, client5, client6, client7, client8, client9, p1, p2, p3, p4, p5, service1, service2, service3, service4, service5, service6, service7, slider1, slider2, slider3, clientraj } from "@/assests/Home";
 import { navArrType } from "@/types/index";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -92,7 +92,7 @@ export const navArr: navArrType[] = [
 
   export const clientArr = [
     { id:1,
-     img:client1,
+     img: clientraj,
     },
 
     
