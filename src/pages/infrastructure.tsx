@@ -29,13 +29,11 @@ export default function Infrastructure() {
           <div>
             <h2 className="text-2xl font-semibold mb-4">Resource Management</h2>
             <p className="text-gray-700 leading-relaxed">
-              We maintain a strong resource management group for manpower, machinery, material
-              procurement and workforce mobilization. With a team of 700+ employees, engineers,
-              and managers, we ensure timely completion of projects with world-class efficiency.
+             We operate a robust resource management system encompassing manpower planning, machinery deployment, material procurement, and workforce mobilization. Backed by a skilled team of 700+ professionals—including engineers, technicians, and project managers—we ensure timely project execution with high operational efficiency and precision.
+
             </p>
             <p className="text-gray-700 leading-relaxed mt-3">
-              Our fleet includes modern equipment such as Excavators, Dozers, Cranes, Rock Breakers,
-              Loaders, and more, ensuring prompt services and quality in every project.
+             Our infrastructure is strengthened by a fleet of advanced equipment, including excavators, dozers, cranes, rock breakers, loaders, and other heavy machinery. This enables us to deliver prompt, reliable, and high-quality services across diverse industrial projects.
             </p>
           </div>
 
@@ -73,22 +71,28 @@ export default function Infrastructure() {
                 <Link href="/services/engineering-industrial-management">Operations & Maintenance</Link>
               </li>
               <li>
-                <Link href="/services/industrial-asset-management">Fabrication and Erections</Link>
+                <Link href="/services/industrial-asset-management">Fabrication</Link>
               </li>
               <li>
-                <Link href="/services/manpower-management">Plant & Equipment Erection & commissioning</Link>
+                <Link href="/services/manpower-management">Plant commissioning</Link>
               </li>
               <li>
                 <Link href="/services/risk-management">Refurbishing of old plant</Link>
               </li>
               <li>
-                <Link href="/services/staffing-solutions">Shutdown maintenance</Link>
+                <Link href="/services/staffing-solutions">Shutdown / Capital maintenance</Link>
               </li>
               <li>
                 <Link href="/services/software-management">Man power Management</Link>
               </li>
               <li>
                 <Link href="/services/software-management">Technical audit</Link>
+              </li>
+                           <li>
+                <Link href="/services/software-management">Industrial Training</Link>
+              </li>
+                              <li>
+                <Link href="/services/software-management">Technical Ship Management</Link>
               </li>
             </ul>
           </div>
