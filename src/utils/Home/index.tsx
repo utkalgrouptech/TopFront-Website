@@ -1,4 +1,4 @@
-import { client1, client10, client11, client12, client2, client3, client4, client5, client6, client7, client8, client9, p1, p2, p3, p4, p5, service1, service2, service3, service4, service5, service6, service7, slider1, slider2, slider3, clientraj } from "@/assests/Home";
+import { client1, client10, client11, client12, client2, client3, client4, client5, client6, client7, client8, client9, p1, p2, p3, p4, p5, service1, service2, service3, service4, service5, service6, service7, slider1, slider2, slider3, clientraj,shree,arti } from "@/assests/Home";
 import { navArrType } from "@/types/index";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -95,7 +95,13 @@ export const navArr: navArrType[] = [
      img: clientraj,
     },
 
-    
+     { id:2,
+     img:shree,
+    },
+
+    { id:3,
+     img:arti,
+    },
 
     { id:4,
      img:client4,
@@ -130,7 +136,7 @@ export const serviceArr = [
   {
     id: 2,
     img: service2,
-    title: "Fabrication and Erections",
+    title: "Fabrication",
     description: [
       "Structural Steel Fabrication and Custom Pressure Vessels.",
       "Skid and Pipe Fabrication, Material Processing, Surface Treatment.",
@@ -141,7 +147,7 @@ export const serviceArr = [
   {
     id: 3,
     img: service3,
-    title: "Plant & Equipment Erection & Commissioning",
+    title: "Plant Commissioning",
     description: [
       "Meticulous planning, installation, testing, and integration of machinery and systems.",
       "Mechanical assembly, electrical wiring, structural installation, and utility connections.",
@@ -163,7 +169,7 @@ export const serviceArr = [
   {
     id: 5,
     img: service5,
-    title: "Shutdown Maintenance",
+    title: "Shutdown / Capital Maintenance",
     description: [
       "Comprehensive inspections, repairs, and replacements.",
       "Industrial cleaning, upgrades, and part replacements.",
@@ -191,6 +197,30 @@ export const serviceArr = [
       "Process improvement for IT, manufacturing, and infrastructure.",
       "Detailed reports with actionable recommendations.",
       "Covers cybersecurity, system controls, production processes, project implementation.",
+    ],
+  },
+
+    {
+    id: 7,
+    img: service6,
+    title: "Technical Audit",
+    description: [
+      "Performance assessment, risk identification, compliance checks.",
+      "Process improvement for IT, manufacturing, and infrastructure.",
+    
+      
+    ],
+  },
+
+    {
+    id: 8,
+    img: service8,
+    title: "Industrial Training",
+    description: [
+      "Material Science & Metallurgy",
+      "Fabrication & Welding Techniques",
+      "Erection & Installation Practices",
+      "Shutdown Maintenance Management",
     ],
   },
 ];
