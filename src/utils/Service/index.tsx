@@ -1,4 +1,4 @@
-import { service1, service2, service3, service4, service5, service6, service7 } from "@/assests/Home";
+import { service1, service2, service3, service4, service5, service6, service7, service8 } from "@/assests/Home";
 
 
 export const servicesData = [
@@ -231,6 +231,72 @@ export const servicesData = [
           'Detailed reporting with recommendations.',
         ],
       },
+    },
+  },
+    {
+    id: 8,
+    title: 'Industrial Training',
+    description:
+      'We provide industry-focused training programmes to develop technical skills, practical knowledge, and workforce readiness.',
+    image: service8,
+    details: {
+      heading: 'Industrial Training Programmes',
+      mainContent: [
+        'The proposed Industrial Training Programmes are designed to build technical competency and operational efficiency among industrial and general stainless steel fabricators, with a specific focus on erection, installation, and shutdown maintenance activities across multiple sectors.',
+        'The programme aims to address the skill gap at the grassroots level by imparting structured, module-based training on stainless steel fabrication techniques, material handling, welding practices, surface finishing, corrosion resistance, and lifecycle performance. Special emphasis is placed on practical, hands-on exposure to ensure alignment with industry standards and real-time operational requirements.',
+      ],
+      features: [
+       {
+    title: '01 — Material Science & Metallurgy',
+    content:
+      'Fundamentals of stainless steel grades, mechanical properties, corrosion behaviour, and material selection based on industrial applications.',
+  },
+  {
+    title: '02 — Fabrication & Welding Techniques',
+    content:
+      'Advanced welding methods including TIG, MIG, and Arc Welding with joint design, distortion control, and quality assurance practices.',
+  },
+  {
+    title: '03 — Erection & Installation Practices',
+    content:
+      'Standard procedures for equipment erection, alignment, anchoring, installation, and commissioning in industrial environments.',
+  },
+  {
+    title: '04 — Shutdown Maintenance Management',
+    content:
+      'Preventive and corrective maintenance, inspection methods, fault diagnosis, and rapid turnaround strategies during shutdowns.',
+  },
+  {
+    title: '05 — Health, Safety & Environment (HSE)',
+    content:
+      'Industrial safety compliance, PPE usage, hazard identification, risk assessment, and accident prevention measures.',
+  },
+  {
+    title: '06 — Quality Control & Testing',
+    content:
+      'Non-destructive testing (NDT), inspection standards, quality checks, and adherence to relevant industrial codes.',
+  },
+  
+      ],
+      whyChooseUs: [
+        'The programme integrates Virtual Reality (VR)-based simulation modules to provide an immersive training experience. This enables trainees to simulate complex industrial scenarios such as plant shutdowns, equipment installation, and emergency handling in a risk-free environment, thereby improving retention, accuracy, and decision-making capabilities.',
+        
+      ],
+      checklist: {
+         
+       
+        items: [
+          'Development of a skilled workforce aligned with industry requirements .',
+          'Enhanced productivity and reduction in operational errors ',
+          'Improved quality standards and compliance with safety norms ',
+          'Increased employability and livelihood generation for trainees ',
+          'Optimized lifecycle performance of stainless steel applications ',
+        ],
+         paragraph:
+    'These training programmes are structured to support industries in achieving higher operational efficiency while simultaneously contributing to skill development and capacity building at a national level.',
+      },
+
+     
     },
   },
 ];
