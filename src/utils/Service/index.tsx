@@ -37,7 +37,7 @@ export const servicesData = [
   },
   {
     id: 2,
-    title: 'Fabrication and Erections',
+    title: 'Fabrication',
     description:
       'Topfront offers advanced fabrication and erection services with precision, quality, and safety at the core.',
     image: service2,
