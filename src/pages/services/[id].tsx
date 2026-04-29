@@ -70,10 +70,16 @@ if (!service) return <p className="p-10 text-center text-red-500">Service not fo
       </li>
     ))}
   </ul>
+                {/* Add this for paragraph */}
+  {service.details.paragraph && (
+    <p className="text-gray-700 leading-relaxed mt-6">
+      {service.details.paragraph}
+    </p>
+  )}
 </div>
 
           {/* Checklist Section */}
-             {service.details.checklist && (
+   {service.details.checklist && service.id !== 9 && (
   <div className="mt-10">
     <h2 className="text-2xl font-bold mb-4">
       {service.id === 8 ? 'Programme Outcomes:' : 'Our Checklist'}
