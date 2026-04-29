@@ -9,10 +9,7 @@ interface JobOpening {
   description: string
 }
 
-const jobOpenings: JobOpening[] = [
-  {
-    
-]
+const jobOpenings: JobOpening[] = []
 
 export default function Jobopening() {
   return (
