@@ -95,13 +95,7 @@ export const navArr: navArrType[] = [
      img:client1,
     },
 
-    { id:2,
-     img:client2,
-    },
-
-    { id:3,
-     img:client3,
-    },
+    
 
     { id:4,
      img:client4,
@@ -111,33 +105,11 @@ export const navArr: navArrType[] = [
      img:client5,
     },
 
-    { id:6,
-     img:client6,
-    },
-
-    { id:7,
-     img:client7,
-    },
-
+   
     { id:8,
      img:client8,
     },
 
-    { id:9,
-     img:client9,
-    },
-
-    { id:10,
-     img:client10,
-    },
-
-    { id:11,
-     img:client11,
-    },
-
-   {id:12,
-     img:client12,
-   },
    
       
      ];
