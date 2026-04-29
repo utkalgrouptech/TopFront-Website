@@ -57,33 +57,42 @@ if (!service) return <p className="p-10 text-center text-red-500">Service not fo
           </div>
 
           {/* Why Choose Us */}
-          <div className="mt-10">
-            <h2 className="text-2xl font-bold mb-4">Why Choose Us?</h2>
-            <ul className="space-y-3">
-              {service.details.whyChooseUs.map((reason, idx) => (
-                <li key={idx} className="flex items-start">
-                  <span className="text-green-600 text-xl mr-2">✔</span>
-                  <span className="text-gray-700">{reason}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+             <div className="mt-10">
+  <h2 className="text-2xl font-bold mb-4">
+    {service.id === 8 ? 'Technology-Enabled Learning:' : 'Why Choose Us?'}
+  </h2>
+
+  <ul className="space-y-3">
+    {service.details.whyChooseUs.map((reason, idx) => (
+      <li key={idx} className="flex items-start">
+        <span className="text-green-600 text-xl mr-2">✔</span>
+        <span className="text-gray-700">{reason}</span>
+      </li>
+    ))}
+  </ul>
+</div>
 
           {/* Checklist Section */}
-          {service.details.checklist && (
-            <div className="mt-10">
-              <h2 className="text-2xl font-bold mb-4">Our Checklist</h2>
-              <p className="text-gray-700 mb-4">{service.details.checklist.description}</p>
-              <ul className="space-y-3">
-                {service.details.checklist.items.map((item, idx) => (
-                  <li key={idx} className="flex items-start">
-                    <span className="text-red-600 text-xl mr-2">✔</span>
-                    <span className="text-gray-700">{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+             {service.details.checklist && (
+  <div className="mt-10">
+    <h2 className="text-2xl font-bold mb-4">
+      {service.id === 8 ? 'Programme Outcomes:' : 'Our Checklist'}
+    </h2>
+
+    <p className="text-gray-700 mb-4">
+      {service.details.checklist.description}
+    </p>
+
+    <ul className="space-y-3">
+      {service.details.checklist.items.map((item, idx) => (
+        <li key={idx} className="flex items-start">
+          <span className="text-red-600 text-xl mr-2">✔</span>
+          <span className="text-gray-700">{item}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
         </div>
 
         {/* Sidebar */}
