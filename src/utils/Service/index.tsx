@@ -70,7 +70,7 @@ export const servicesData = [
   },
   {
     id: 3,
-    title: 'Plant & Equipment Erection & Commissioning',
+    title: 'Plant Commissioning',
     description:
       'We ensure safe, precise, and efficient erection and commissioning of industrial plants and equipment.',
     image: service3,
