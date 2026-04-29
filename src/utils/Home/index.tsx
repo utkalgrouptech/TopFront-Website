@@ -96,7 +96,7 @@ export const navArr: navArrType[] = [
     },
 
      { id:2,
-     img:shree,
+     img::shree,
     },
 
     { id:3,
