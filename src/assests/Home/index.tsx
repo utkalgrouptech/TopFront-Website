@@ -32,6 +32,6 @@ export {default as p4} from "./Picture4.jpg"
 export {default as p5} from "./Picture5.jpg"
 export {default as clientraj} from "./jatraj.jpg"
 export {default as arti} from "./arti.png"
-export {default as arti} from "./shree.jpg"
+export {default as shree} from "./shree.jpg"
 
 
