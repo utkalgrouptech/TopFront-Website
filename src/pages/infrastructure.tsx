@@ -60,31 +60,31 @@ export default function Infrastructure() {
             </h3>
                         <ul className="space-y-2 text-gray-700">
               <li>
-                <Link href="/services/1">Operations & Maintenance</Link>
+                <Link href="/services/1" className="hover:text-red-600">Operations & Maintenance</Link>
               </li>
               <li>
-                <Link href="/services/2">Fabrication</Link>
+                <Link href="/services/2" className="hover:text-red-600">Fabrication</Link>
               </li>
               <li>
-                <Link href="/services/3">Plant commissioning</Link>
+                <Link href="/services/3" className="hover:text-red-600">Plant commissioning</Link>
               </li>
               <li>
-                <Link href="/services/4">Refurbishing of old plant</Link>
+                <Link href="/services/4" className="hover:text-red-600">Refurbishing of old plant</Link>
               </li>
               <li>
-                <Link href="/services/5">Shutdown / Capital maintenance</Link>
+                <Link href="/services/5" className="hover:text-red-600">Shutdown / Capital maintenance</Link>
               </li>
               <li>
-                <Link href="/services/6">Man power Management</Link>
+                <Link href="/services/6" className="hover:text-red-600">Man power Management</Link>
               </li>
               <li>
-                <Link href="/services/7">Technical audit</Link>
+                <Link href="/services/7" className="hover:text-red-600">Technical audit</Link>
               </li>
                            <li>
-                <Link href="/services/8">Industrial Training</Link>
+                <Link href="/services/8" className="hover:text-red-600">Industrial Training</Link>
               </li>
                               <li>
-                <Link href="/services/9">Technical Ship Management</Link>
+                <Link href="/services/9" className="hover:text-red-600">Technical Ship Management</Link>
               </li>
             </ul>
           </div>
