@@ -102,12 +102,12 @@ export default function AboutSection() {
           </li>
           <li>
             <Link href="/services/2" className="hover:text-red-600">
-              Fabrication and Erections
+              Fabrication
             </Link>
           </li>
           <li>
             <Link href="/services/3" className="hover:text-red-600">
-              Plant & Equipment Erection & commissioning
+              Plant commissioning
             </Link>
           </li>
           <li>
@@ -117,7 +117,7 @@ export default function AboutSection() {
           </li>
           <li>
             <Link href="/services/5" className="hover:text-red-600">
-              Shutdown maintenance 
+              Shutdown /Captial maintenance 
             </Link>
           </li>
           <li>
@@ -126,8 +126,18 @@ export default function AboutSection() {
             </Link>
           </li>
                     <li>
-            <Link href="/services/6" className="hover:text-red-600">
+            <Link href="/services/7" className="hover:text-red-600">
              Technical audit
+            </Link>
+          </li>
+           <li>
+            <Link href="/services/8" className="hover:text-red-600">
+             Industrial Training
+            </Link>
+          </li>
+           <li>
+            <Link href="/services/9" className="hover:text-red-600">
+             Technical Ship Management
             </Link>
           </li>
         </ul>
