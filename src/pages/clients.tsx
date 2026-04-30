@@ -55,10 +55,10 @@ export default function Clients() {
                 <Link href="/services/engineering-industrial-management">Operations & Maintenance</Link>
               </li>
               <li>
-                <Link href="/services/industrial-asset-management">Fabrication and Erections</Link>
+                <Link href="/services/industrial-asset-management">Fabrication</Link>
               </li>
               <li>
-                <Link href="/services/manpower-management">Plant & Equipment Erection & commissioning</Link>
+                <Link href="/services/manpower-management">Plant commissioning</Link>
               </li>
               <li>
                 <Link href="/services/risk-management">Refurbishing of old plant</Link>
@@ -71,6 +71,12 @@ export default function Clients() {
               </li>
               <li>
                 <Link href="/services/software-management">Technical audit</Link>
+              </li>
+              <li>
+                <Link href="/services/software-management">Industrial Training</Link>
+              </li>
+              <li>
+                <Link href="/services/9">Technical Ship Management</Link>
               </li>
             </ul>
           </div>
