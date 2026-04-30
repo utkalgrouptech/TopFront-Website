@@ -305,7 +305,7 @@ export const servicesData = [
     id: 9,
     title: 'Technical Ship Management',
     description:
-      'We provide industry-focused training programmes to develop technical skills, practical knowledge, and workforce readiness.',
+      'We provide reliable technical ship management services including maintenance, inspections, repairs, compliance, and efficient vessel operations.',
     image: service9,
     details: {
       heading: 'Technical Ship Management',
