@@ -29,11 +29,15 @@ export default function Infrastructure() {
           <div>
             <h2 className="text-2xl font-semibold mb-4">Resource Management</h2>
             <p className="text-gray-700 leading-relaxed">
-             We operate a robust resource management system encompassing manpower planning, machinery deployment, material procurement, and workforce mobilization. Backed by a skilled team of 700+ professionals—including engineers, technicians, and project managers—we ensure timely project execution with high operational efficiency and precision.
+           
+We operate a robust and integrated resource management system encompassing manpower planning, machinery deployment, material procurement, and efficient workforce mobilization.
+
+Backed by a highly skilled team of 1000+ professionals—including engineers, technicians, and project managers, we ensure timely project execution with precision, efficiency, and operational excellence. Our industry experts bring significant value through their deep domain knowledge, technical expertise, and hands-on experience.
 
             </p>
             <p className="text-gray-700 leading-relaxed mt-3">
-             Our infrastructure is strengthened by a fleet of advanced equipment, including excavators, dozers, cranes, rock breakers, loaders, and other heavy machinery. This enables us to deliver prompt, reliable, and high-quality services across diverse industrial projects.
+            Our infrastructure is further strengthened by a fleet of advanced equipment, including excavators, dozers, cranes, rock breakers, loaders, and other heavy earthmoving machinery (HEMM).
+            This enables us to deliver prompt, reliable, and high-quality services across diverse and large-scale industrial projects.
             </p>
           </div>
 
