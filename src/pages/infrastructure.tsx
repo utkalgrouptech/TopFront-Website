@@ -68,31 +68,31 @@ export default function Infrastructure() {
             </h3>
                         <ul className="space-y-2 text-gray-700">
               <li>
-                <Link href="/services/engineering-industrial-management">Operations & Maintenance</Link>
+                <Link href="/services/1">Operations & Maintenance</Link>
               </li>
               <li>
-                <Link href="/services/industrial-asset-management">Fabrication</Link>
+                <Link href="/services/2">Fabrication</Link>
               </li>
               <li>
-                <Link href="/services/manpower-management">Plant commissioning</Link>
+                <Link href="/services/3">Plant commissioning</Link>
               </li>
               <li>
-                <Link href="/services/risk-management">Refurbishing of old plant</Link>
+                <Link href="/services/4">Refurbishing of old plant</Link>
               </li>
               <li>
-                <Link href="/services/staffing-solutions">Shutdown / Capital maintenance</Link>
+                <Link href="/services/5">Shutdown / Capital maintenance</Link>
               </li>
               <li>
-                <Link href="/services/software-management">Man power Management</Link>
+                <Link href="/services/6">Man power Management</Link>
               </li>
               <li>
-                <Link href="/services/software-management">Technical audit</Link>
+                <Link href="/services/7">Technical audit</Link>
               </li>
                            <li>
-                <Link href="/services/software-management">Industrial Training</Link>
+                <Link href="/services/8">Industrial Training</Link>
               </li>
                               <li>
-                <Link href="/services/software-management">Technical Ship Management</Link>
+                <Link href="/services/9">Technical Ship Management</Link>
               </li>
             </ul>
           </div>
