@@ -35,5 +35,6 @@ export {default as arti} from "./arti.png"
 export {default as shree} from "./shree.jpg"
 export {default as ninj} from "./ninl.jpeg"
 export {default as infraa} from "./infra.jpeg"
+export {default as picture} from "./pic.png"
 
 
