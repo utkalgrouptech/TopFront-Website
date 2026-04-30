@@ -34,5 +34,6 @@ export {default as clientraj} from "./jatraj.jpg"
 export {default as arti} from "./arti.png"
 export {default as shree} from "./shree.jpg"
 export {default as ninj} from "./ninl.jpeg"
+export {default as infraa} from "./infra.jpeg"
 
 
