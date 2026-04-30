@@ -42,7 +42,7 @@ export const servicesData = [
       'Topfront offers advanced fabrication and erection services with precision, quality, and safety at the core.',
     image: service2,
     details: {
-      heading: 'FABRICATION & ERECTIONS',
+      heading: 'FABRICATION',
       mainContent: [
         'We specialize in structural steel fabrication, pressure vessels, skid fabrication, pipe fabrication, and material processing with surface treatment.',
         'Our erection services include structural steel, pipelines, PEB erection, and commissioning of industrial projects.',
@@ -75,7 +75,7 @@ export const servicesData = [
       'We ensure safe, precise, and efficient erection and commissioning of industrial plants and equipment.',
     image: service3,
     details: {
-      heading: 'PLANT & EQUIPMENT ERECTION & COMMISSIONING',
+      heading: 'PLANT COMMISSIONING',
       mainContent: [
         'Meticulous planning, installation, testing, and integration of industrial machinery and systems.',
         'We ensure operational readiness through structural installation, mechanical assembly, utility connections, and performance testing.',
@@ -141,7 +141,7 @@ export const servicesData = [
       'We provide specialized shutdown maintenance services to ensure plant reliability and safety.',
     image: service5,
     details: {
-      heading: 'SHUTDOWN MAINTENANCE',
+      heading: 'SHUTDOWN /CAPITAL MAINTENANCE',
       mainContent: [
         'Comprehensive inspections, repairs, replacements, cleaning, and upgrades during plant shutdowns.',
         'Our teams ensure quick turnaround and minimal downtime for critical industries.',
