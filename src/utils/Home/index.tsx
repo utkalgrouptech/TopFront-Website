@@ -1,4 +1,4 @@
-import { client1, client10, client11, client12, client2, client3, client4, client5, client6, client7, client8, client9, p1, p2, p3, p4, p5, service1, service2, service3, service4, service5, service6, service7, slider1, slider2, slider3, clientraj,shree,arti,service8,ninj,service9,infraa } from "@/assests/Home";
+import { client1, client10, client11, client12, client2, client3, client4, client5, client6, client7, client8, client9, p1, p2, p3, p4, p5, service1, service2, service3, service4, service5, service6, service7, slider1, slider2, slider3, clientraj,shree,arti,service8,ninj,service9,infraa, picture } from "@/assests/Home";
 import { navArrType } from "@/types/index";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -231,7 +231,7 @@ export const serviceArr = [
     
 
     export const infrastructureData = [
-{ id: 1, title: "Raise Boring", image:infraa },
+{ id: 1, title: "Raise Boring", image:picture },
   { id: 2, title: "Dredger", image: p2 },
   { id: 3, title: "Excavator", image: p3 },
   { id: 4, title: "Dozer", image: p4 },
