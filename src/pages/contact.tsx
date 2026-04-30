@@ -6,7 +6,7 @@ import MainLayouts from '@/Layouts/MainLayouts'
 import React from 'react'
 
 const data={
-    cont1:"CONTACT TOPFRONT TEAM",
+    cont1:"CONTACT US",
     
   }
 export default function contact() {
