@@ -41,13 +41,15 @@ export default function Infrastructure() {
           <div>
             <h2 className="text-2xl font-semibold mb-6">For Prompt & Efficient Services</h2>
             <div className="flex justify-center">
-   <Image
+  <div className="w-full max-w-4xl">
+    <Image
       src={infrastructureData[0].image}
       alt="Infrastructure Highlight"
-      width={500}
-      height={300}
-      className="rounded-lg object-cover"
+      width={1200}
+      height={700}
+      className="rounded-lg object-cover w-full h-auto"
     />
+  </div>
 </div>
           </div>
         </div>
