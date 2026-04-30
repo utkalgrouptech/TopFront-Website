@@ -102,9 +102,11 @@ We are the largest Management Solutions provider, associated with leading end-to
             <h3 className="text-lg font-bold border-b-2 border-red-600 pb-2 mb-4">
               Download Our E-Brochure
             </h3>
+             <a href="/Brochure.pdf" download>
             <button className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded">
               Download Now
             </button>
+             </a>
           </div>
         </aside>
       </div>
