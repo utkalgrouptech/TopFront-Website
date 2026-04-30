@@ -64,27 +64,7 @@ export default function AboutSection() {
           </div>
 
           {/* Certification */}
-          <div>
-            <h2 className="text-2xl font-bold text-red-600 mb-4">
-              Certification
-            </h2>
-            <div className="flex flex-wrap gap-6">
-              <Image
-                src={logo.src} // Replace with actual certificate images
-                alt="Certificate 1"
-                width={200}
-                height={280}
-                className="border"
-              />
-              <Image
-                src={logo.src}
-                alt="Certificate 2"
-                width={200}
-                height={280}
-                className="border"
-              />
-            </div>
-          </div>
+        
         </div>
 
         {/* Right Sidebar */}
@@ -158,9 +138,11 @@ We are the largest Management Solutions provider, associated with leading end-to
             <h3 className="text-xl font-bold border-b-2 border-red-600 pb-2 mb-4">
               Download Our E-Brochure
             </h3>
+                <a href="/Brochure.pdf" download>
             <button className="bg-red-600 text-white px-6 py-2 rounded hover:bg-red-700 transition">
               Download Now
             </button>
+                </a>
           </div>
         </aside>
       </div>
