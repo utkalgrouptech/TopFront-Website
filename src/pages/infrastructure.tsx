@@ -40,23 +40,15 @@ export default function Infrastructure() {
           {/* Equipment Grid */}
           <div>
             <h2 className="text-2xl font-semibold mb-6">For Prompt & Efficient Services</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-              {infrastructureData.map((item) => (
-                <div
-                  key={item.id}
-                  className="flex flex-col items-center p-3"
-                >
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    width={200}
-                    height={150}
-                    className="object-fill"
-                  />
-                  {/* <p className="mt-2 text-sm font-medium text-gray-700">{item.title}</p> */}
-                </div>
-              ))}
-            </div>
+            <div className="flex justify-center">
+   <Image
+      src={infrastructureData[0].image}
+      alt="Infrastructure Highlight"
+      width={500}
+      height={300}
+      className="rounded-lg object-cover"
+    />
+</div>
           </div>
         </div>
 
